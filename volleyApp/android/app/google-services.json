@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "279950824600",
+    "project_id": "volleyappwithrn",
+    "storage_bucket": "volleyappwithrn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279950824600:android:d7e920b7a0f87f492c2ced",
+        "android_client_info": {
+          "package_name": "com.volleyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "279950824600-o7cd9apd0bpueec35n7koab50vq9so4d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB93xC2EVCzHm7bYntyEkUtwwBlOLavRyc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "279950824600-o7cd9apd0bpueec35n7koab50vq9so4d.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "279950824600-9p59jjdhr2lsp301alq6dk4bhva3g5jk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.volleyappIOS"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
