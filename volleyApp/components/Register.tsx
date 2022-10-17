@@ -1,6 +1,6 @@
 import React from 'react';
 import {useEffect, useState, useContext} from 'react';
-import {Text, View, TextInput, Button, TouchableOpacity, StyleSheet} from 'react-native';
+import {Text, View, TextInput, Button, TouchableOpacity, StyleSheet, ImageBackground} from 'react-native';
 import {AuthContext} from '../context/AuthContext';
 
 const RegisterScreen = ({navigation}) => {
@@ -10,7 +10,7 @@ const RegisterScreen = ({navigation}) => {
 
     const{register}=useContext(AuthContext);
     return(
-        <View style={styles.all}>
+        <ImageBackground style={styles.imageback} source={{ uri: 'https://forvolleyapp.s3.ap-northeast-1.amazonaws.com/loginimage.png' }}> 
             <Text style={styles.welcome1}>Create an Account</Text>
             <View style={styles.size}>
                 <TextInput style={styles.type} value={name} onChangeText={text=>setName(text)} placeholder="Enter Name" />
@@ -24,7 +24,7 @@ const RegisterScreen = ({navigation}) => {
                     <Text style={{color:'blue'}} onPress={()=>navigation.navigate('Login')}>Login</Text>
                 </TouchableOpacity>
             </View>
-        </View>
+        </ImageBackground>
     );
 };
 
@@ -34,9 +34,13 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         fontFamily: 'serif',
         marginBottom:50,
+        opacity:1,
+        color: 'black',
     },
-    all:{
-        flex:1,
+    imageback: {
+        flex: 1,
+        width: '100%', 
+        height: '100%',
         justifyContent:'center',
         alignItems:'center',
     },
@@ -53,7 +57,7 @@ const styles = StyleSheet.create({
         borderWidth:1,
         borderRadius:5,
         paddingHorizontal:15,
-    }
+    },
 });
 
 export {RegisterScreen};

@@ -6,6 +6,8 @@ import {LogBox} from "react-native";
 
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import ImagePicker from 'react-native-image-crop-picker';
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
+
 
 import {Practice_menu} from './practice1';
 import {Tactics_menu} from './tactics2';
@@ -17,10 +19,10 @@ const Tab = createBottomTabNavigator();
 const Learn_menu = () =>{
     return(
         <Tab.Navigator>
-            <Tab.Screen name="練習" component={Practice_menu} options={{ headerShown: false }}/>
-            <Tab.Screen name="戰術" component={Tactics_menu} options={{ headerShown: false }}/>
-            <Tab.Screen name="熱身" component={Warmup_menu} options={{ headerShown: false }}/>
-            <Tab.Screen name="運動傷害" component={Hurt_menu} options={{ headerShown: false }}/>
+            <Tab.Screen name="練習" component={Practice_menu} options={{ headerShown: false, tabBarIcon: ({focused}) =>{return <Icon name="star" size={30} color={focused? '#1E90FF':'#A9A9A9'}/>;}}} />
+            <Tab.Screen name="戰術" component={Tactics_menu} options={{ headerShown: false ,tabBarIcon: ({focused}) =>{return <Icon name="lightbulb" size={30} color={focused? '#1E90FF':'#A9A9A9'}/>;}}}/>
+            <Tab.Screen name="熱身" component={Warmup_menu} options={{ headerShown: false ,tabBarIcon: ({focused}) =>{return <Icon name="human-handsup" size={30} color={focused? '#1E90FF':'#A9A9A9'}/>;}}}/>
+            <Tab.Screen name="運動傷害" component={Hurt_menu} options={{ headerShown: false,tabBarIcon: ({focused}) =>{return <Icon name="stethoscope" size={30} color={focused? '#1E90FF':'#A9A9A9'}/>;} }}/>
         </Tab.Navigator>
     );
 }

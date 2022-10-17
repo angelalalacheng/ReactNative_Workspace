@@ -1,6 +1,6 @@
 import React from 'react';
 import {useContext, useState} from "react";
-import {Text, View, TextInput, Button, TouchableOpacity, StyleSheet} from 'react-native';
+import {Text, View, TextInput, Button, TouchableOpacity, StyleSheet, ImageBackground} from 'react-native';
 import {AuthContext} from '../context/AuthContext';
 
 const LoginScreen = ({navigation}) => {
@@ -9,7 +9,7 @@ const LoginScreen = ({navigation}) => {
     const{login}=useContext(AuthContext);
     
     return(
-        <View style={styles.all}>
+        <ImageBackground style={styles.imageback} source={{ uri: 'https://forvolleyapp.s3.ap-northeast-1.amazonaws.com/pexels-pavel-danilyuk-6203502.jpg' }}> 
             <Text style={styles.welcome1}>Learning Volleyball App</Text>
             <Text style={styles.welcome2}> from Zero to Hero</Text>
             <View style={styles.size}>
@@ -23,7 +23,7 @@ const LoginScreen = ({navigation}) => {
                     <Text style={{color:'blue'}} onPress={()=>navigation.navigate('Register')}>Register</Text>
                 </TouchableOpacity>
             </View>
-        </View>
+        </ImageBackground>
     );
 };
 
@@ -32,16 +32,12 @@ const styles = StyleSheet.create({
         fontSize:30,
         fontWeight: 'bold',
         fontFamily: 'serif',
+        color: 'black',
     },
     welcome2:{
         fontSize:25,
         marginBottom:50,
         fontFamily: 'serif',
-    },
-    all:{
-        flex:1,
-        justifyContent:'center',
-        alignItems:'center',
     },
     size:{
         width:'80%',
@@ -56,7 +52,14 @@ const styles = StyleSheet.create({
         borderWidth:1,
         borderRadius:5,
         paddingHorizontal:15,
-    }
+    },
+    imageback: {
+        flex: 1,
+        justifyContent:'center',
+        alignItems:'center',
+        width: '100%', 
+        height: '100%',
+    },
 });
 
 export {LoginScreen};

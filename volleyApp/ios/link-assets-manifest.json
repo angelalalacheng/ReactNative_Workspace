@@ -1,0 +1,29 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "asset/font/NotoSansTC-Black.otf",
+      "sha1": "aab73550e83767fceb01b2667313aaee27340682"
+    },
+    {
+      "path": "asset/font/NotoSansTC-Bold.otf",
+      "sha1": "bf4ddd1eda61428e3086fc4a71e8ec462bd35f3d"
+    },
+    {
+      "path": "asset/font/NotoSansTC-Light.otf",
+      "sha1": "91dc7b49208ac599bf6e431e46bfa3b321355501"
+    },
+    {
+      "path": "asset/font/NotoSansTC-Medium.otf",
+      "sha1": "93b421fd8132921d57a9772e5034e6843c414e29"
+    },
+    {
+      "path": "asset/font/NotoSansTC-Regular.otf",
+      "sha1": "e8a5e3f136711dd493da7b61b0cf55596b58029e"
+    },
+    {
+      "path": "asset/font/NotoSansTC-Thin.otf",
+      "sha1": "dbc4b3c4127a0d8d60cf10d53aeb72034513c12d"
+    }
+  ]
+}

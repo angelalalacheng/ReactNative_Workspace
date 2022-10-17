@@ -14,6 +14,12 @@
 		6172F2D35A4C3AA820D92908 /* libPods-volleyApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6423831EA8574132BED9D8CC /* libPods-volleyApp.a */; };
 		7EF68E3733C33B6898317E18 /* libPods-volleyApp-volleyAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFE59519B596E51CEFDCCC0 /* libPods-volleyApp-volleyAppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		6F1F428A81334964AAC5F1B8 /* NotoSansTC-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 63D5F7D08DCD4EC3AB45FA08 /* NotoSansTC-Black.otf */; };
+		08B803AB15C040869E752D2D /* NotoSansTC-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D5293B18CED546DD9F8C2BE0 /* NotoSansTC-Bold.otf */; };
+		0364FAA2A1C54B52A21857A0 /* NotoSansTC-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1660B3EEC28F4A529445D0EE /* NotoSansTC-Light.otf */; };
+		40AECC12514D450C8D644158 /* NotoSansTC-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 883F917D2BF94305A0F5AC6D /* NotoSansTC-Medium.otf */; };
+		1B45B630FF28498D92A6D702 /* NotoSansTC-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AAD16B9392D4BC69459D368 /* NotoSansTC-Regular.otf */; };
+		756C173A36964CCA9D56A2B9 /* NotoSansTC-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = E29CB1B5A4D9483083BBB40D /* NotoSansTC-Thin.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,12 @@
 		C0A881CF5CF3F2B244570E2A /* Pods-volleyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-volleyApp.debug.xcconfig"; path = "Target Support Files/Pods-volleyApp/Pods-volleyApp.debug.xcconfig"; sourceTree = "<group>"; };
 		D00AAFFCFCFDA5787532823F /* Pods-volleyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-volleyApp.release.xcconfig"; path = "Target Support Files/Pods-volleyApp/Pods-volleyApp.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		63D5F7D08DCD4EC3AB45FA08 /* NotoSansTC-Black.otf */ = {isa = PBXFileReference; name = "NotoSansTC-Black.otf"; path = "../asset/font/NotoSansTC-Black.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D5293B18CED546DD9F8C2BE0 /* NotoSansTC-Bold.otf */ = {isa = PBXFileReference; name = "NotoSansTC-Bold.otf"; path = "../asset/font/NotoSansTC-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1660B3EEC28F4A529445D0EE /* NotoSansTC-Light.otf */ = {isa = PBXFileReference; name = "NotoSansTC-Light.otf"; path = "../asset/font/NotoSansTC-Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		883F917D2BF94305A0F5AC6D /* NotoSansTC-Medium.otf */ = {isa = PBXFileReference; name = "NotoSansTC-Medium.otf"; path = "../asset/font/NotoSansTC-Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2AAD16B9392D4BC69459D368 /* NotoSansTC-Regular.otf */ = {isa = PBXFileReference; name = "NotoSansTC-Regular.otf"; path = "../asset/font/NotoSansTC-Regular.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E29CB1B5A4D9483083BBB40D /* NotoSansTC-Thin.otf */ = {isa = PBXFileReference; name = "NotoSansTC-Thin.otf"; path = "../asset/font/NotoSansTC-Thin.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +134,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				E233CBF5F47BEE60B243DCF8 /* Pods */,
+				819546549B3C4E089E3D3B4C /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -148,6 +161,20 @@
 			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		819546549B3C4E089E3D3B4C /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				63D5F7D08DCD4EC3AB45FA08 /* NotoSansTC-Black.otf */,
+				D5293B18CED546DD9F8C2BE0 /* NotoSansTC-Bold.otf */,
+				1660B3EEC28F4A529445D0EE /* NotoSansTC-Light.otf */,
+				883F917D2BF94305A0F5AC6D /* NotoSansTC-Medium.otf */,
+				2AAD16B9392D4BC69459D368 /* NotoSansTC-Regular.otf */,
+				E29CB1B5A4D9483083BBB40D /* NotoSansTC-Thin.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -245,6 +272,12 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				6F1F428A81334964AAC5F1B8 /* NotoSansTC-Black.otf in Resources */,
+				08B803AB15C040869E752D2D /* NotoSansTC-Bold.otf in Resources */,
+				0364FAA2A1C54B52A21857A0 /* NotoSansTC-Light.otf in Resources */,
+				40AECC12514D450C8D644158 /* NotoSansTC-Medium.otf in Resources */,
+				1B45B630FF28498D92A6D702 /* NotoSansTC-Regular.otf in Resources */,
+				756C173A36964CCA9D56A2B9 /* NotoSansTC-Thin.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

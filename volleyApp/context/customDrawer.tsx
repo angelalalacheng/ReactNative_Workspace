@@ -14,14 +14,16 @@ export function DrawerContent(props) {
         <View style={{flex:1}}>
             <DrawerContentScrollView {...props}>
                 <View style={styles.userSection}>
-                    <Title stle={styles.name}>User Name</Title>
+                    <Title stle={styles.name}>Admin</Title>
                 </View>
 
                 <Drawer.Section>
                     <DrawerItem label="Learn" icon={({color, size}) => (
                         <Icon name="bookmark" color={color} size={size} />)}
                         onPress={()=>props.navigation.navigate('學習')} />
-
+                    <DrawerItem label="Competition" icon={({color, size}) => (
+                        <Icon name="sitemap" color={color} size={size} />)}
+                        onPress={()=>props.navigation.navigate('比賽')} />
                     <DrawerItem label="Logout" icon={({color, size}) => (
                         <Icon name="logout" color={color} size={size} />)}
                         onPress={()=>logout()} />
